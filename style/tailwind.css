@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer{
-  h1{
+
+@layer utilities{
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .bebas_nene{
     font-family: 'Bebas Neue', sans-serif;
   }
 }
